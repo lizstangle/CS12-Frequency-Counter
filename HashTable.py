@@ -13,6 +13,15 @@ class HashTable:
   # This method creates an array (list) of a given size and populates each of its elements with a LinkedList object.
 
   def create_arr(self, size):
+
+    arr = []
+
+    for i in range(size):
+      new_ll = LinkedList()
+      arr.append(new_ll)
+
+      return arr
+
      
     pass
 
@@ -25,11 +34,7 @@ class HashTable:
 
   def hash_func(self, key):
 
-    key_length = len(key)
-
-    index = key_length % self.size
-
-    return index
+    pass
 
 
   # 3️⃣ TODO: Complete the insert method.
@@ -37,7 +42,6 @@ class HashTable:
   # Should insert a key value pair into the hash table, where the key is the word and the value is a counter for the number of times the word appeared. When inserting a new word in the hash table, be sure to check if there is a Node with the same key in the table already.
 
   def insert(self, key, value):
-    key_hash = self.hash_func(key)
     pass
 
 
