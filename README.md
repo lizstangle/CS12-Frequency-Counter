@@ -1,1 +1,1 @@
-# CS12-Frequency-Counter
+# CS12-Frequency counting with a hash table
